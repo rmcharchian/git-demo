@@ -9,5 +9,10 @@ $(document).ready(function() {
     $('#chief').css('color', 'green');
     //$('#Kevin li:last-child').css('color', 'black');
     $('ul').first().children().last().css('color','black');
+
+    $('#kevinNewFavorite').on('click', function(){
+        console.log('button was clicked');
+    });
+    
 });
 
